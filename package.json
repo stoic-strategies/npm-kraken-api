@@ -1,7 +1,12 @@
 {
-  "name": "kraken-api",
+  "name": "@stoic-strategies/kraken-api",
   "version": "1.0.0",
   "description": "kraken.com API client library for NodeJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nothingisdead/npm-kraken-api"
+  },
+  "license": "MIT",
   "keywords": [
     "kraken",
     "api",
@@ -10,14 +15,9 @@
   ],
   "author": "Robert Myers (https://github.com/nothingisdead)",
   "contributors": [],
-  "license": "MIT",
   "dependencies": {
     "got": "^7.1.0",
     "qs": ">=6.4.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nothingisdead/npm-kraken-api"
   },
   "main": "kraken.js",
   "engines": {
