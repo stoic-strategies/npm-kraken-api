@@ -1,6 +1,6 @@
 {
   "name": "@stoic-strategies/kraken-api",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "kraken.com API client library for NodeJS",
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
   "author": "Robert Myers (https://github.com/nothingisdead)",
   "contributors": [],
   "dependencies": {
-    "got": "^10.7.0",
-    "qs": ">=6.9.3"
+    "got": "^11.1.3",
+    "qs": ">=6.9.4"
   },
   "main": "kraken.js",
   "engines": {
